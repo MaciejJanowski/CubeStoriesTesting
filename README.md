@@ -2,6 +2,7 @@
 Repository with sample for testing CubeStories Library
 
 ### Installation
+Python 3.7.3
 ```python
 pip install cubestories
 ```
