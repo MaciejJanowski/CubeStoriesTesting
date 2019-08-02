@@ -1,5 +1,5 @@
 # CubeStoriesTesting
-Repository with sample for testing CubeStories Library
+Repository with sample for testing CubeStories Library. Test data was retrieved from 2011 Central Statistics Office Census
 
 ### Installation
 ```python
