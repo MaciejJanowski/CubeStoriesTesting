@@ -1,5 +1,6 @@
 # CubeStoriesTesting
-Repository with sample for testing CubeStories Library. Test data was retrieved from 2011 Central Statistics Office Census
+Repository with sample for testing CubeStories Library. 
+Data used for testing was retrived from 2011 census published by Central Statistics Office, Ireland.
 
 ### Installation
 Python 3.7.3
