@@ -3,7 +3,7 @@ Repository with sample for testing CubeStories Library.
 Data used for testing was retrived from 2011 census published by Central Statistics Office, Ireland.
 
 ### Installation
-Python 3.7.3
+Python 3
 ```python
 pip install cubestories
 ```
