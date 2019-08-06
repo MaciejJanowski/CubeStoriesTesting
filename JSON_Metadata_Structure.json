@@ -75,8 +75,8 @@
 			}
 			},
 		"measures":{
-			"Population":{
-			"measure_title":"Population",
+			"Population15OrOver":{
+			"measure_title":"Population15OrOver",
 			"measure_url":"http://data.cso.ie/census-2011/property/population-aged-15-years-and-over"
 			}
 
