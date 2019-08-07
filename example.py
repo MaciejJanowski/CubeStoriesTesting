@@ -17,7 +17,7 @@ AnalysisPipeline={  ##Dictionary pair: [Pattern Key]:[List of Pattern Parameters
 
     "StBigDrillDown":{
         "hierdim_drill_down":{
-          "DimKey":["PR","ED","CTY"]
+          "RefArea":["PR","ED","CTY"]
         }
     },
 
