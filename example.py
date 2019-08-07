@@ -6,28 +6,26 @@ metdadataparameters={
 }
 
 cubeparameters={
-    "cube":"PopulationPrinicipalStatus",  #Key value of cube
-    "dimensions":["EconomicStatus","Gender"], #Dimensions from cube
-    "measures":["Population"], #Measures
-    "hierdimensions": #Hierachical Dimension with granularity level
-        {"RefArea":{ #Dimension key
-            "selected_level":"CTY" # selected level
-            }
-        }
+    "cube":"PersonsIndustry",  #Key value of cube
+    "dimensions":["Gender", "Industry"], #Dimensions from cube
+    "measures":["PersonsAtWork"] #Measures
 }
 
 #cubeparameters=dict()
 
 AnalysisPipeline={  ##Dictionary pair: [Pattern Key]:[List of Pattern Parameters]
-    
-    "LeagueTab":{   
-       "columns_to_order":["Population"],
-       "order_type":"desc",
-       "number_of_records":10
-   },
-   "DissFact":{
-        "dim_to_dissect":"RefArea"
-    }
+
+    "StBigDrillDown":{
+        "hierdim_drill_down":{
+          "DimKey":["PR","ED","CTY"]
+        }
+    },
+
+    "LeagueTab": {
+       "columns_to_order":["PersonsAtWork"],
+       "order_type":"asc",
+       "number_of_records":1
+   }
 
 }
 #######DO NOT CHANGE########################
